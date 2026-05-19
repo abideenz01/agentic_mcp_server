@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>agentic_mcp_server | Inspector Hub</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 10px 10px 0 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #38bdf8;
+    color: black;
+}
+
+.btn-dark {
+    background: #334155;
+    color: white;
+}
+
+.tag {
+    display: inline-block;
+    background: #334155;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+pre {
+    background: #0b1220;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>agentic_mcp_server</h1>
+
+<p class="subtitle">
+Production-grade MCP server with tool execution, schema inspection, and remote invocation via HTTP transport.
+</p>
+
+<!-- LIVE LINKS -->
+<div class="card">
+
+<h2>🚀 Live System</h2>
+
+<a class="btn btn-primary" href="https://abideenz01-mcp-gateway.hf.space/mcp" target="_blank">
+Open MCP Server
+</a>
+
+<a class="btn btn-dark" href="https://github.com/abideenz01/agentic_mcp_server" target="_blank">
+View GitHub Repo
+</a>
+
+<a class="btn btn-dark" href="https://abideenz01.github.io/agentic_mcp_server/" target="_blank">
+Open Portfolio Home
+</a>
+
+</div>
+
+<!-- GLAMA INSPECTOR -->
+<div class="card">
+
+<h2>🔍 MCP Inspector (Glama)</h2>
+
+<p>Interactive tool discovery, schema validation, and execution tracing.</p>
+
+<a class="btn btn-primary"
+href="https://glama.ai/mcp/inspector?servers=%5B%7B%22id%22%3A%22test%22%2C%22name%22%3A%22test%22%2C%22requestTimeout%22%3A10000%2C%22url%22%3A%22https%3A%2F%2Fmcp-test.glama.ai%2Fmcp%22%7D%2C%7B%22authType%22%3A%22none%22%2C%22bearerToken%22%3A%22%22%2C%22customHeaders%22%3A%5B%5D%2C%22name%22%3A%22agentic_mcp_server%22%2C%22oauthClientId%22%3A%22%22%2C%22oauthClientSecret%22%3A%22%22%2C%22requestTimeout%22%3A10000%2C%22url%22%3A%22https%3A%2F%2Fabideenz01-mcp-gateway.hf.space%2Fmcp%22%2C%22useLocalhostRedirect%22%3Afalse%2C%22useProxy%22%3Atrue%2C%22id%22%3A%22server-1779175102391-6r44jrw%22%7D%5D&active=server-1779175102391-6r44jrw"
+target="_blank">
+Open Inspector
+</a>
+
+</div>
+
+<!-- TECH STACK -->
+<div class="card">
+
+<h2>🧠 Tech Stack</h2>
+
+<span class="tag">Python</span>
+<span class="tag">LangChain</span>
+<span class="tag">Hugging Face</span>
+<span class="tag">MCP Protocol</span>
+<span class="tag">HTTP Transport</span>
+<span class="tag">Glama Inspector</span>
+
+</div>
+
+<!-- ARCHITECTURE -->
+<div class="card">
+
+<h2>🏗 Architecture</h2>
+
+<pre>
+Client
+   ↓
+MCP Protocol Layer
+   ↓
+LangChain Adapter
+   ↓
+agentic_mcp_server
+   ↓
+Tool Runtime
+
+(fetch, process, bash, python_code, search, fetch_content)
+</pre>
+
+</div>
+
+<!-- CAPABILITIES -->
+<div class="card">
+
+<h2>⚙ Capabilities</h2>
+
+<ul>
+<li>Remote tool execution over MCP</li>
+<li>Schema-based tool discovery</li>
+<li>HTTP-based transport layer</li>
+<li>Interactive inspection via Glama</li>
+<li>Agent interoperability support</li>
+</ul>
+
+</div>
+
+<!-- TOOLS -->
+<div class="card">
+
+<h2>🧰 Exposed Tools</h2>
+
+<div>
+<span class="tag">fetch</span>
+<span class="tag">process</span>
+<span class="tag">bash</span>
+<span class="tag">python_code</span>
+<span class="tag">python_file</span>
+<span class="tag">glob</span>
+<span class="tag">grep</span>
+<span class="tag">read_file</span>
+<span class="tag">write_file</span>
+<span class="tag">create_folder</span>
+<span class="tag">delete_folder</span>
+<span class="tag">search</span>
+<span class="tag">fetch_content</span>
+</div>
+
+</div>
+
+<!-- FUTURE -->
+<div class="card">
+
+<h2>🎥 Demo</h2>
+
+<p>Coming soon: execution walkthrough + tool invocation demo</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
