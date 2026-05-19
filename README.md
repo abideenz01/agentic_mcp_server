@@ -1,2 +1,15 @@
-# agentic_mcp_server
-Model Context Protocol built for context exchange between LLMs and external resources 
+---
+title: MCP Gateway
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
+
+# MCP Gateway Server
+
+MCP server built with FastMCP, exposing tools via streamable-http transport.
+
+## Endpoint
+`/mcp`
